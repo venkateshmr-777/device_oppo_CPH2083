@@ -1,0 +1,67 @@
+name: Recovery Builder
+
+on:
+  workflow_dispatch:
+
+env:
+  MANIFEST_URL: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
+  MANIFEST_BRANCH: 'twrp-9.0'
+  DEVICE_NAME: 'CPH2083'
+  DEVICE_PATH: 'device/oppo/CPH2083'
+  COMMON_LUNCH_CHOICE: 'omni_CPH2083-eng'
+  BUILD_TARGET: 'recoveryimage'
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Cleanup Runner Space
+      run: |
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /etc/mysql
+        sudo rm -rf /etc/php
+        sudo rm -rf /usr/local/lib/android
+        sudo apt-get clean
+        
+    - name: Install Build Tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y bc build-essential zip curl libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip gperf python2 python3 git
+
+    - name: Set up Google Repo Tool
+      run: |
+        mkdir -p ~/bin
+        curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+        chmod a+x ~/bin/repo
+        sudo ln -sf ~/bin/repo /usr/bin/repo
+
+    - name: Initialize Repo Manifest & Sync Source
+      run: |
+        mkdir workspace
+        cd workspace
+        git config --global user.name "cook45"
+        git config --global user.email "cook45@partners.clack"
+        repo init --depth=1 -u $MANIFEST_URL -b $MANIFEST_BRANCH
+        repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
+    - name: Clone Device Tree
+      run: |
+        cd workspace
+        git clone https://github.com/${{ github.repository }} -b ${{ github.ref_name }} $DEVICE_PATH
+
+    - name: Build Recovery Image
+      run: |
+        cd workspace
+        export ALLOW_MISSING_DEPENDENCIES=true
+        source build/envsetup.sh
+        lunch $COMMON_LUNCH_CHOICE
+        make -j$(nproc --all) $BUILD_TARGET
+
+    - name: Upload Recovery Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: twrp-CPH2083
+        path: workspace/out/target/product/CPH2083/recovery.img

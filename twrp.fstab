@@ -1,0 +1,13 @@
+/system          ext4      /dev/block/platform/bootdevice/by-name/system
+/vendor          ext4      /dev/block/platform/bootdevice/by-name/vendor
+/data            ext4      /dev/block/platform/bootdevice/by-name/userdata         fileencryption=aes-256-xts
+/cache           ext4      /dev/block/platform/bootdevice/by-name/cache
+/boot            emmc      /dev/block/platform/bootdevice/by-name/boot
+/recovery        emmc      /dev/block/platform/bootdevice/by-name/recovery         flags=backup=1
+/dtbo            emmc      /dev/block/platform/bootdevice/by-name/dtbo             flags=backup=1;display="DTBO"
+/vbmeta          emmc      /dev/block/platform/bootdevice/by-name/vbmeta           flags=backup=1;display="VBMeta"
+/nvram           emmc      /dev/block/platform/bootdevice/by-name/nvram             flags=backup=1;display="NVRAM"
+/nvdata          ext4      /dev/block/platform/bootdevice/by-name/nvdata           flags=backup=1;display="NVDATA";subpartitionof=/nvram
+/nvcfg           ext4      /dev/block/platform/bootdevice/by-name/nvcfg           flags=backup=1;display="NVCFG";subpartitionof=/nvram
+/external_sd     vfat      /dev/block/mmcblk1p1                                    flags=display="MicroSD";storage;wipeingui;removable
+/usbotg          vfat      /dev/block/platform/11200000.usb3_xhci*                  flags=display="USB-OTG";storage;wipeingui;removable
