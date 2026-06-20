@@ -31,7 +31,7 @@ jobs:
     - name: Install Build Tools
       run: |
         sudo apt-get update
-        sudo apt-get install -y bc build-essential zip curl libc6-dev-i386 lib32ncurses-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip gperf python2.7 python3 git
+        sudo apt-get install -y bc build-essential zip curl libc6-dev-i386 lib32ncurses-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip gperf python2.7 python3 git libtinfo5 libncurses5
         sudo ln -sf /usr/bin/python2.7 /usr/bin/python2
         sudo ln -sf /usr/bin/python2.7 /usr/bin/python
 
@@ -62,7 +62,7 @@ jobs:
         export ALLOW_MISSING_DEPENDENCIES=true
         source build/envsetup.sh
         lunch $COMMON_LUNCH_CHOICE
-        make -j$(nproc --all) $BUILD_TARGET 2>&1 | tee build.log
+        make -j$(nproc --all) $BUILD_TARGET 2>&1 | tee build.log; exit ${PIPESTATUS[0]}
 
     - name: Commit Build Log
       if: always()
