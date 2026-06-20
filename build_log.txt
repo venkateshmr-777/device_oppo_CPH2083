@@ -1,28 +1,26 @@
-[10/39] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/gotestmain/obj/a.out
-[11/39] cp /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/gotestmain
 [12/39] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-pathtools/test/test.go
 [13/39] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-pathtools/test/test.a
 [14/39] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-pathtools/test/test
 [15/39] test github.com/google/blueprint/pathtools
 [16/39] cp /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/bpglob
-[17/39] glob external/libdrm/Android.sources.bp
-[18/39] glob external/libdrm/amdgpu/Android.sources.bp
+[17/39] glob external/boringssl/sources.bp
+[18/39] glob external/libdrm/Android.sources.bp
 [19/39] glob external/libdrm/etnaviv/Android.sources.bp
-[20/39] glob external/boringssl/sources.bp
-[21/39] glob external/libdrm/freedreno/Android.sources.bp
-[22/39] glob external/libdrm/intel/Android.sources.bp
-[23/39] glob external/libdrm/libkms/Android.sources.bp
+[20/39] glob external/libdrm/amdgpu/Android.sources.bp
+[21/39] glob external/libdrm/libkms/Android.sources.bp
+[22/39] glob external/libdrm/freedreno/Android.sources.bp
+[23/39] glob external/libdrm/intel/Android.sources.bp
 [24/39] glob external/libdrm/nouveau/Android.sources.bp
-[25/39] glob external/libdrm/radeon/Android.sources.bp
-[26/39] glob external/libdrm/tests/modetest/Android.sources.bp
+[25/39] glob external/libdrm/tests/modetest/Android.sources.bp
+[26/39] glob external/libdrm/radeon/Android.sources.bp
 [27/39] glob external/libdrm/tests/planetest/Android.sources.bp
-[28/39] glob external/libdrm/tests/util/Android.sources.bp
-[29/39] glob external/scrypt/sources.bp
-[30/39] glob external/tensorflow/tensorflow/contrib/lite/tflite_static.bp
-[31/39] glob libcore/JavaLibrary.bp
+[28/39] glob external/tensorflow/tensorflow/contrib/lite/tflite_static.bp
+[29/39] glob external/libdrm/tests/util/Android.sources.bp
+[30/39] glob external/scrypt/sources.bp
+[31/39] glob frameworks/rs/support.bp
 [32/39] glob libcore/NativeCode.bp
-[33/39] glob frameworks/rs/support.bp
-[34/39] glob libcore/non_openjdk_java_files.bp
+[33/39] glob libcore/non_openjdk_java_files.bp
+[34/39] glob libcore/JavaLibrary.bp
 [35/39] glob libcore/annotated_java_files.bp
 [36/39] glob libcore/openjdk_java_files.bp
 [37/39] glob prebuilts/ndk/cpufeatures.bp
@@ -30,51 +28,51 @@
 [1/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/test/test.go
 [2/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/test.go
 [3/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/test/test.go
-[4/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/pkg/github.com/google/blueprint/proptools.a
+[4/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/pkg/github.com/google/blueprint/parser.a
 [5/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/loadplugins/obj/loadplugins.a
-[6/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/pkg/github.com/google/blueprint/parser.a
-[7/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/test/github.com/google/blueprint/proptools.a
-[8/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/test/github.com/google/blueprint/parser.a
+[6/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/pkg/github.com/google/blueprint/proptools.a
+[7/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/test/github.com/google/blueprint/parser.a
+[8/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/test/github.com/google/blueprint/proptools.a
 [9/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/test/test.a
 [10/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/loadplugins/obj/a.out
 [11/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/test/test.a
 [12/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-parser/test/test
 [13/76] test github.com/google/blueprint/parser
 [14/76] cp /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/loadplugins
-[15/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/test/test
-[16/76] test github.com/google/blueprint/proptools
-[17/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/pkg/github.com/google/blueprint.a
-[18/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/github.com/google/blueprint.a
-[19/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/test.a
-[20/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-bootstrap-bpdoc/pkg/github.com/google/blueprint/bootstrap/bpdoc.a
-[21/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/test.go
-[22/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/test.go
-[23/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong/pkg/android/soong.a
-[24/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc-config/test/test.go
-[25/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-bootstrap/pkg/github.com/google/blueprint/bootstrap.a
-[26/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-omnirom/pkg/omnirom/soong/android.a
-[27/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/test/test.go
-[28/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/test.go
-[29/76] create /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_build/gen/plugin.go
-[30/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-shared/pkg/android/soong/shared.a
-[31/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-env/pkg/android/soong/env.a
-[32/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_env/obj/soong_env.a
-[33/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/test
-[34/76] test github.com/google/blueprint
-[35/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_env/obj/a.out
-[36/76] cp /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/soong_env
+[15/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/test.go
+[16/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/test.go
+[17/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc-config/test/test.go
+[18/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-proptools/test/test
+[19/76] test github.com/google/blueprint/proptools
+[20/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-env/pkg/android/soong/env.a
+[21/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-omnirom/pkg/omnirom/soong/android.a
+[22/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/test.go
+[23/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-shared/pkg/android/soong/shared.a
+[24/76] create /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_build/gen/plugin.go
+[25/76] gotestmain /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/test/test.go
+[26/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_env/obj/soong_env.a
+[27/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/pkg/github.com/google/blueprint.a
+[28/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/github.com/google/blueprint.a
+[29/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/test.a
+[30/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong/pkg/android/soong.a
+[31/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-bootstrap-bpdoc/pkg/github.com/google/blueprint/bootstrap/bpdoc.a
+[32/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_env/obj/a.out
+[33/76] cp /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/soong_env
+[34/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint-bootstrap/pkg/github.com/google/blueprint/bootstrap.a
+[35/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/blueprint/test/test
+[36/76] test github.com/google/blueprint
 [37/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/pkg/android/soong/android.a
-[38/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-genrule/pkg/android/soong/genrule.a
-[39/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/android/soong/android.a
-[40/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java-config/pkg/android/soong/java/config.a
-[41/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/test.a
+[38/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/android/soong/android.a
+[39/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-genrule/pkg/android/soong/genrule.a
+[40/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/test.a
+[41/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java-config/pkg/android/soong/java/config.a
 [42/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc-config/pkg/android/soong/cc/config.a
 [43/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc-config/test/android/soong/cc/config.a
 [44/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-bpf/pkg/android/soong/bpf.a
 [45/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc-config/test/test.a
 [46/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-android/test/test
-[47/76] test android/soong/android
-[48/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/test/android/soong/java.a
+[47/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/test/android/soong/java.a
+[48/76] test android/soong/android
 [49/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/test/test.a
 [50/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc-config/test/test
 [51/76] test android/soong/cc/config
@@ -82,24 +80,24 @@
 [53/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/test/test
 [54/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/pkg/android/soong/cc.a
 [55/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/android/soong/cc.a
-[56/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-art/pkg/android/soong/art.a
-[57/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/test.a
-[58/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/pkg/android/soong/java.a
+[56/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/test.a
+[57/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-java/pkg/android/soong/java.a
+[58/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-art/pkg/android/soong/art.a
 [59/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-clang/pkg/android/soong/external/clang.a
-[60/76] test android/soong/java
+[60/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/hidl-soong-rules/pkg/android/soong/hidl.a
 [61/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-clang-prebuilts/pkg/android/soong/prebuilts/clang/host/linux-x86/clangprebuilts.a
 [62/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-phony/pkg/android/soong/phony.a
 [63/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-llvm/pkg/android/soong/external/llvm.a
-[64/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/hidl-soong-rules/pkg/android/soong/hidl.a
-[65/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-wayland-protocol-codegen/pkg/android/soong/external/wayland-protocol.a
-[66/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/pkg/android/soong/python.a
-[67/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/android/soong/python.a
-[68/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/test.a
+[64/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/android/soong/python.a
+[65/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/pkg/android/soong/python.a
+[66/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/test.a
+[67/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-wayland-protocol-codegen/pkg/android/soong/external/wayland-protocol.a
+[68/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/test
 [69/76] compile /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_build/obj/soong_build.a
-[70/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-cc/test/test
-[71/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/test
-[72/76] test android/soong/python
-[73/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_build/obj/a.out
+[70/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong-python/test/test
+[71/76] test android/soong/python
+[72/76] link /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/soong_build/obj/a.out
+[73/76] test android/soong/java
 [74/76] test android/soong/cc
 [75/76] cp /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/soong_build
 [76/76] /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/.bootstrap/bin/soong_build /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/soong/build.ninja
@@ -278,9 +276,9 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 build/make/core/Makefile:28: warning: overriding commands for target `/home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/system/etc/mkshrc'
 build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/system/etc/mkshrc'
 [  0% 1/690] glob external/compiler-rt/lib
-[  0% 2/690] glob external/llvm/lib/ExecutionEngine/MCJIT/*.cpp
-[  0% 3/690] glob external/llvm/lib/ExecutionEngine/Interpreter/*.cpp
-[  0% 4/690] glob external/llvm/lib/ExecutionEngine/Orc/*.cpp
+[  0% 2/690] glob external/llvm/lib/ExecutionEngine/Interpreter/*.cpp
+[  0% 3/690] glob external/llvm/lib/ExecutionEngine/Orc/*.cpp
+[  0% 4/690] glob external/llvm/lib/ExecutionEngine/MCJIT/*.cpp
 [  0% 5/690] glob external/llvm/lib/ExecutionEngine/RuntimeDyld/*.cpp
 [  0% 6/690] glob external/llvm/lib/ExecutionEngine/*.cpp
 [  1% 7/690] glob external/llvm/lib/Fuzzer/*.cpp
@@ -288,8 +286,8 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [  1% 9/690] glob external/llvm/lib/IRReader/*.cpp
 [  1% 10/690] glob hardware/interfaces/vibrator/1.2/src
 [  1% 11/690] glob hardware/interfaces/vr/1.0/src
-[  1% 12/690] glob hardware/interfaces/weaver/1.0/src
-[  1% 13/690] glob hardware/interfaces/wifi/1.0/src
+[  1% 12/690] glob hardware/interfaces/wifi/1.0/src
+[  1% 13/690] glob hardware/interfaces/weaver/1.0/src
 [  2% 14/690] glob hardware/interfaces/wifi/1.1/src
 [  2% 15/690] glob external/python/cpython2/Lib/json/**/*.py
 [  2% 16/690] glob external/python/cpython2/Lib/logging/**/*.py
@@ -299,22 +297,22 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [  2% 20/690] glob external/python/cpython2/Lib/pydoc_data/**/*.py
 [  3% 21/690] glob external/python/cpython2/Lib/wsgiref/**/*.py
 [  3% 22/690] glob external/python/cpython2/Lib/unittest/**/*.py
-[  3% 23/690] glob external/python/cpython2/Lib/xml/**/*.py
-[  3% 24/690] glob external/python/futures/concurrent/**/*.py
-[  3% 25/690] glob external/llvm/lib/AsmParser/*.cpp
-[  3% 26/690] glob external/llvm/lib/Analysis/*.cpp
+[  3% 23/690] glob external/python/futures/concurrent/**/*.py
+[  3% 24/690] glob external/python/cpython2/Lib/xml/**/*.py
+[  3% 25/690] glob external/llvm/lib/Analysis/*.cpp
+[  3% 26/690] glob external/llvm/lib/AsmParser/*.cpp
 [  3% 27/690] glob external/llvm/lib/Bitcode/Reader/*.cpp
 [  4% 28/690] glob external/llvm/lib/Bitcode/Writer/*.cpp
-[  4% 29/690] glob external/llvm/lib/CodeGen/AsmPrinter/*.cpp
-[  4% 30/690] glob external/llvm/lib/CodeGen/MIRParser/*.cpp
+[  4% 29/690] glob external/llvm/lib/CodeGen/MIRParser/*.cpp
+[  4% 30/690] glob external/llvm/lib/CodeGen/AsmPrinter/*.cpp
 [  4% 31/690] glob external/llvm/lib/CodeGen/SelectionDAG/*.cpp
 [  4% 32/690] glob external/rappor/client/java/**/*.java
 [  4% 33/690] glob external/rappor/src
 [  4% 34/690] glob external/safe-iop/include
-[  5% 35/690] glob external/skia/include/private
-[  5% 36/690] glob external/scapy/scapy/**/*.py
-[  5% 37/690] glob external/skia/src/codec
-[  5% 38/690] glob external/skia/src/core
+[  5% 35/690] glob external/skia/src/core
+[  5% 36/690] glob external/skia/include/private
+[  5% 37/690] glob external/scapy/scapy/**/*.py
+[  5% 38/690] glob external/skia/src/codec
 [  5% 39/690] glob external/skia/src/effects
 [  5% 40/690] glob external/skia/src/gpu
 [  5% 41/690] glob external/skia/src/image
@@ -322,34 +320,34 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [  6% 43/690] glob external/skia/src/shaders
 [  6% 44/690] glob external/skia/src/utils
 [  6% 45/690] glob external/squashfs-tools/squashfs-tools
-[  6% 46/690] glob external/tinyxml2
-[  6% 47/690] glob external/tensorflow
+[  6% 46/690] glob external/tensorflow
+[  6% 47/690] glob external/tinyxml2
 [  6% 48/690] glob external/tremolo
 [  7% 49/690] glob external/llvm/lib/Target/Mips/AsmParser/*.cpp
-[  7% 50/690] glob external/turbine/java/**/*.java
-[  7% 51/690] glob external/llvm/lib/Target/Mips/InstPrinter/*.cpp
-[  7% 52/690] glob external/llvm/lib/Target/Mips/Disassembler/*.cpp
+[  7% 50/690] glob external/llvm/lib/Target/Mips/Disassembler/*.cpp
+[  7% 51/690] glob external/turbine/java/**/*.java
+[  7% 52/690] glob external/llvm/lib/Target/Mips/InstPrinter/*.cpp
 [  7% 53/690] glob external/llvm/lib/Target/Mips/MCTargetDesc/*.cpp
 [  7% 54/690] glob external/llvm/lib/Target/Mips/TargetInfo/*.cpp
 [  7% 55/690] glob external/llvm/lib/Target/Mips/*.cpp
 [  8% 56/690] glob external/llvm/lib/Target/X86/AsmParser/*.cpp
-[  8% 57/690] glob external/llvm/lib/Target/X86/InstPrinter/*.cpp
-[  8% 58/690] glob external/llvm/lib/Target/X86/MCTargetDesc/*.cpp
-[  8% 59/690] glob external/llvm/lib/Target/X86/Disassembler/*.cpp
+[  8% 57/690] glob external/llvm/lib/Target/X86/Disassembler/*.cpp
+[  8% 58/690] glob external/llvm/lib/Target/X86/InstPrinter/*.cpp
+[  8% 59/690] glob external/llvm/lib/Target/X86/MCTargetDesc/*.cpp
 [  8% 60/690] glob external/llvm/lib/Target/X86/TargetInfo/*.cpp
-[  8% 61/690] glob frameworks/base/tools/locked_region_code_injection/src
-[  8% 62/690] glob frameworks/base/tools/aapt2/integration-tests/CompileTest/**/*
+[  8% 61/690] glob frameworks/base/tools/aapt2/integration-tests/CompileTest/**/*
+[  8% 62/690] glob frameworks/base/tools/locked_region_code_injection/src
 [  9% 63/690] glob frameworks/base/tools/sdkparcelables/src
 [  9% 64/690] glob frameworks/base/tools/locked_region_code_injection/src/**/*.java
 [  9% 65/690] glob frameworks/base/tools/sdkparcelables/src/**/*.kt
 [  9% 66/690] glob frameworks/base/tools/sdkparcelables/tests/**/*.kt
-[  9% 67/690] glob frameworks/compile/libbcc/lib
-[  9% 68/690] glob frameworks/compile/slang
+[  9% 67/690] glob frameworks/compile/libbcc/include
+[  9% 68/690] glob frameworks/compile/libbcc/lib
 [ 10% 69/690] glob frameworks/base/wifi/java/**/*.java
-[ 10% 70/690] glob frameworks/compile/libbcc/include
-[ 10% 71/690] glob frameworks/hardware/interfaces/displayservice/1.0/src
-[ 10% 72/690] glob frameworks/native
-[ 10% 73/690] glob frameworks/hardware/interfaces/schedulerservice/1.0/src
+[ 10% 70/690] glob frameworks/hardware/interfaces/displayservice/1.0/src
+[ 10% 71/690] glob frameworks/compile/slang
+[ 10% 72/690] glob frameworks/hardware/interfaces/schedulerservice/1.0/src
+[ 10% 73/690] glob frameworks/native
 [ 10% 74/690] glob frameworks/native/aidl/binder
 [ 10% 75/690] glob frameworks/native/aidl/gui
 [ 11% 76/690] glob frameworks/native/include
@@ -366,45 +364,45 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 12% 87/690] glob frameworks/native/opengl/include/GLES2/**/*.h
 [ 12% 88/690] glob frameworks/native/opengl/include/GLES3/**/*.h
 [ 12% 89/690] glob frameworks/native/opengl/include/KHR/**/*.h
-[ 13% 90/690] glob frameworks/native/opengl/libs
-[ 13% 91/690] glob frameworks/native/services
-[ 13% 92/690] glob frameworks/native/opengl/libs/EGL
+[ 13% 90/690] glob frameworks/native/opengl/libs/EGL
+[ 13% 91/690] glob frameworks/native/opengl/libs
+[ 13% 92/690] glob frameworks/native/services
 [ 13% 93/690] glob frameworks/native/opengl/libs/GLES2
 [ 13% 94/690] glob frameworks/native/services/surfaceflinger/layerproto/*.proto
-[ 13% 95/690] glob frameworks/native/services/thermalservice/aidl
-[ 13% 96/690] glob frameworks/native/services/surfaceflinger/layerproto/src
+[ 13% 95/690] glob frameworks/native/services/surfaceflinger/layerproto/src
+[ 13% 96/690] glob frameworks/native/services/thermalservice/aidl
 [ 14% 97/690] glob frameworks/native/services/vr/hardware_composer/aidl
 [ 14% 98/690] glob frameworks/native/vulkan/include
 [ 14% 99/690] glob frameworks/native/vulkan/vkjson
 [ 14% 100/690] glob frameworks/rs
-[ 14% 101/690] glob frameworks/rs/cpp
-[ 14% 102/690] glob frameworks/rs/driver
-[ 14% 103/690] glob hardware/interfaces/audio/2.0/src
+[ 14% 101/690] glob frameworks/rs/driver
+[ 14% 102/690] glob hardware/interfaces/audio/2.0/src
+[ 14% 103/690] glob frameworks/rs/cpp
 [ 15% 104/690] glob hardware/interfaces/audio/4.0/src
 [ 15% 105/690] glob hardware/interfaces/audio/common/2.0/src
 [ 15% 106/690] glob hardware/interfaces/audio/common/4.0/src
 [ 15% 107/690] glob hardware/interfaces/audio/effect/2.0/src
 [ 15% 108/690] glob hardware/interfaces/audio/effect/4.0/src
-[ 15% 109/690] glob hardware/interfaces/authsecret/1.0/src
-[ 15% 110/690] glob hardware/interfaces/automotive/audiocontrol/1.0/src
+[ 15% 109/690] glob hardware/interfaces/automotive/audiocontrol/1.0/src
+[ 15% 110/690] glob hardware/interfaces/authsecret/1.0/src
 [ 16% 111/690] glob hardware/interfaces/automotive/vehicle/2.0/src
 [ 16% 112/690] glob hardware/interfaces/biometrics/fingerprint/2.1/src
 [ 16% 113/690] glob hardware/interfaces/bluetooth/1.0/src
 [ 16% 114/690] glob hardware/interfaces/boot/1.0/src
 [ 16% 115/690] glob hardware/interfaces/broadcastradio/2.0/src
 [ 16% 116/690] glob hardware/interfaces/camera/common/1.0/src
-[ 16% 117/690] glob hardware/interfaces/camera/metadata/3.2/src
-[ 17% 118/690] glob hardware/interfaces/cas/1.0/src
-[ 17% 119/690] glob hardware/interfaces/camera/metadata/3.3/src
+[ 16% 117/690] glob hardware/interfaces/camera/metadata/3.3/src
+[ 17% 118/690] glob hardware/interfaces/camera/metadata/3.2/src
+[ 17% 119/690] glob hardware/interfaces/cas/1.0/src
 [ 17% 120/690] glob hardware/interfaces/configstore/1.0/src
-[ 17% 121/690] glob hardware/interfaces/configstore/1.1/src
-[ 17% 122/690] glob hardware/interfaces/contexthub/1.0/src
+[ 17% 121/690] glob hardware/interfaces/contexthub/1.0/src
+[ 17% 122/690] glob hardware/interfaces/configstore/1.1/src
 [ 17% 123/690] glob hardware/interfaces/gatekeeper/1.0/src
 [ 17% 124/690] glob hardware/interfaces/gnss/1.0/src
 [ 18% 125/690] glob hardware/interfaces/gnss/1.1/src
 [ 18% 126/690] glob hardware/interfaces/graphics/common/1.0/src
-[ 18% 127/690] glob external/clang/include
-[ 18% 128/690] glob external/clang/lib/ASTMatchers/*.cpp
+[ 18% 127/690] glob external/clang/lib/ASTMatchers/*.cpp
+[ 18% 128/690] glob external/clang/include
 [ 18% 129/690] glob external/brotli/c/enc/*.c
 [ 18% 130/690] glob external/clang/lib/AST/*.cpp
 [ 18% 131/690] glob external/clang/lib/ARCMigrate/*.cpp
@@ -412,22 +410,22 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 19% 133/690] glob external/brotli/c/common/*.c
 [ 19% 134/690] glob external/bouncycastle/bcprov/src/main/java/org/bouncycastle/asn1/ocsp/**/*.java
 [ 19% 135/690] glob external/clang/lib/Analysis/*.cpp
-[ 19% 136/690] glob external/clang/lib/CodeGen/*.cpp
-[ 19% 137/690] glob external/clang/lib/CodeGen
+[ 19% 136/690] glob external/clang/lib/CodeGen
+[ 19% 137/690] glob external/clang/lib/CodeGen/*.cpp
 [ 20% 138/690] glob external/clang/lib/Basic/*.cpp
 [ 20% 139/690] glob external/bouncycastle/bcpkix/src/main/java/org/bouncycastle/cert/ocsp/**/*.java
-[ 20% 140/690] glob external/clang/lib/Tooling/Core/*.cpp
-[ 20% 141/690] glob external/clang/lib/StaticAnalyzer/Frontend/*.cpp
-[ 20% 142/690] glob external/bouncycastle/bcpkix/src/main/java/**/*.java
+[ 20% 140/690] glob external/clang/lib/StaticAnalyzer/Frontend/*.cpp
+[ 20% 141/690] glob external/bouncycastle/bcpkix/src/main/java/**/*.java
+[ 20% 142/690] glob external/clang/lib/Tooling/Core/*.cpp
 [ 20% 143/690] glob external
-[ 20% 144/690] glob external/bouncycastle/bcprov/src/main/java/**/*.java
-[ 21% 145/690] glob external/clang/lib/Driver/*.cpp
-[ 21% 146/690] glob external/protobuf/java/core/src/stubs/**/*.java
+[ 20% 144/690] glob external/clang/lib/Driver/*.cpp
+[ 21% 145/690] glob external/protobuf/java/core/src/stubs/**/*.java
+[ 21% 146/690] glob external/bouncycastle/bcprov/src/main/java/**/*.java
 [ 21% 147/690] glob external/protobuf/javamicro/src/main/java/com/google/protobuf/micro/**/*.java
-[ 21% 148/690] glob external/protobuf/javanano/src/device/main/java/com/google/protobuf/nano/**/*.java
-[ 21% 149/690] glob hardware/interfaces/tv/cec/1.0/src
-[ 21% 150/690] glob dalvik/dx/src/**/*.java
-[ 21% 151/690] glob hardware/interfaces/tv/input/1.0/src
+[ 21% 148/690] glob hardware/interfaces/tv/cec/1.0/src
+[ 21% 149/690] glob external/protobuf/javanano/src/device/main/java/com/google/protobuf/nano/**/*.java
+[ 21% 150/690] glob hardware/interfaces/tv/input/1.0/src
+[ 21% 151/690] glob dalvik/dx/src/**/*.java
 [ 22% 152/690] glob hardware/interfaces/usb/1.0/src
 [ 22% 153/690] glob hardware/interfaces/usb/1.1/src
 [ 22% 154/690] glob hardware/interfaces/usb/gadget/1.0/src
@@ -435,14 +433,14 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 22% 156/690] glob external/python/cpython2/Lib/compiler/**/*.py
 [ 22% 157/690] glob external/python/cpython2/Lib/ctypes/**/*.py
 [ 22% 158/690] glob external/python/cpython2/Lib/email/**/*.py
-[ 23% 159/690] glob bionic/libc/kernel/uapi/rdma/**/*.h
-[ 23% 160/690] glob bionic/libc/kernel/uapi/scsi/**/*.h
-[ 23% 161/690] glob external/python/cpython2/Lib/encodings/**/*.py
+[ 23% 159/690] glob external/python/cpython2/Lib/encodings/**/*.py
+[ 23% 160/690] glob bionic/libc/kernel/uapi/rdma/**/*.h
+[ 23% 161/690] glob bionic/libc/kernel/uapi/scsi/**/*.h
 [ 23% 162/690] glob bionic/libc/kernel/uapi/sound/**/*.h
 [ 23% 163/690] glob external/nos/host/generic/nugget/proto/**/*.proto
 [ 23% 164/690] glob external/ntfs-3g/libfuse-lite/*.c
-[ 23% 165/690] glob external/oj-libjdwp/src
-[ 24% 166/690] glob external/oj-libjdwp/make/src/classes/build/tools/jdwpgen/*.java
+[ 23% 165/690] glob external/oj-libjdwp/make/src/classes/build/tools/jdwpgen/*.java
+[ 24% 166/690] glob external/oj-libjdwp/src
 [ 24% 167/690] glob external/oj-libjdwp/src/share/back/*.c
 [ 24% 168/690] glob external/oj-libjdwp/src/share/npt/*.c
 [ 24% 169/690] glob external/oj-libjdwp/src/share/transport/socket/*.c
@@ -450,13 +448,13 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 24% 171/690] glob external/oj-libjdwp/src/solaris/npt/*.c
 [ 24% 172/690] glob external/oj-libjdwp/src/solaris/transport/socket/*.c
 [ 25% 173/690] glob external/perf_data_converter/src/quipper
-[ 25% 174/690] glob external/compiler-rt/lib/asan/tests
-[ 25% 175/690] glob frameworks/av/media/libaudioclient/tests/record_test_input_*.txt
-[ 25% 176/690] glob external/protobuf/java/core/src/main/java/**/*.java
+[ 25% 174/690] glob external/protobuf/java/core/src/main/java/**/*.java
+[ 25% 175/690] glob external/compiler-rt/lib/asan/tests
+[ 25% 176/690] glob frameworks/av/media/libaudioclient/tests/record_test_input_*.txt
 [ 25% 177/690] glob frameworks/av/media/libaudioclient/tests/track_test_input_*.txt
 [ 25% 178/690] glob frameworks/av/media/libmediaextractor/include
-[ 25% 179/690] glob frameworks/av/media/libstagefright/codecs/amrwb/src
-[ 26% 180/690] glob frameworks/av/media/libstagefright
+[ 25% 179/690] glob frameworks/av/media/libstagefright
+[ 26% 180/690] glob frameworks/av/media/libstagefright/codecs/amrwb/src
 [ 26% 181/690] glob frameworks/av/media/libstagefright/flac/dec
 [ 26% 182/690] glob frameworks/av/media/libstagefright/httplive
 [ 26% 183/690] glob frameworks/av/media/libstagefright/include
@@ -465,33 +463,33 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 26% 186/690] glob frameworks/av/media/libstagefright/timedtext
 [ 27% 187/690] glob frameworks/av/media/libstagefright/webm
 [ 27% 188/690] glob frameworks/av/media/ndk/include/media/**/*.h
-[ 27% 189/690] glob frameworks/base/cmds/am/**/*.proto
-[ 27% 190/690] glob frameworks/base/cmds/incident_helper/src/parsers/*.cpp
+[ 27% 189/690] glob frameworks/base/cmds/incident_helper/src/parsers/*.cpp
+[ 27% 190/690] glob frameworks/base/cmds/am/**/*.proto
 [ 27% 191/690] glob frameworks/base/cmds/incident_helper/testdata/*
 [ 27% 192/690] glob frameworks/base/cmds/incident_helper/tests/*.cpp
-[ 27% 193/690] glob frameworks/base/core/java
-[ 28% 194/690] glob frameworks/base/core/jni
-[ 28% 195/690] glob frameworks/base/core/res/assets/**/*
-[ 28% 196/690] glob frameworks/base/core/res/assets
-[ 28% 197/690] glob frameworks/base/core/res/res
-[ 28% 198/690] glob frameworks/base/core/proto/**/*.proto
+[ 27% 193/690] glob frameworks/base/core/jni
+[ 28% 194/690] glob frameworks/base/core/java
+[ 28% 195/690] glob frameworks/base/core/res/assets
+[ 28% 196/690] glob frameworks/base/core/proto/**/*.proto
+[ 28% 197/690] glob frameworks/base/core/res/assets/**/*
+[ 28% 198/690] glob frameworks/base/core/res/res
 [ 28% 199/690] glob frameworks/base/drm/java/**/*.java
 [ 28% 200/690] glob frameworks/base/graphics/java/**/*.java
 [ 29% 201/690] glob frameworks/base/keystore/java/**/*.java
 [ 29% 202/690] glob frameworks/base/libs
-[ 29% 203/690] glob frameworks/base/libs/hwui/tests/common/scenes/*.cpp
-[ 29% 204/690] glob frameworks/base/libs/androidfw/tests/data/**/*.apk
+[ 29% 203/690] glob frameworks/base/libs/androidfw/tests/data/**/*.apk
+[ 29% 204/690] glob frameworks/base/libs/hwui/tests/common/scenes/*.cpp
 [ 29% 205/690] glob frameworks/base/libs/incident/**/*.proto
 [ 29% 206/690] glob frameworks/base/location/java/**/*.java
 [ 30% 207/690] glob frameworks/base/lowpan/java/**/*.java
 [ 30% 208/690] glob frameworks/base/media/java
 [ 30% 209/690] glob frameworks/base/media/jni
-[ 30% 210/690] glob frameworks/base/media/mca/effect/java/**/*.java
-[ 30% 211/690] glob frameworks/base/media/java/**/*.java
-[ 30% 212/690] glob external/llvm/lib/LTO/*.cpp
+[ 30% 210/690] glob frameworks/base/media/java/**/*.java
+[ 30% 211/690] glob frameworks/base/core/java/**/*.java
+[ 30% 212/690] glob frameworks/base/media/mca/effect/java/**/*.java
 [ 30% 213/690] glob frameworks/base/media/mca/filterfw/java/**/*.java
-[ 31% 214/690] glob external/llvm/lib/LibDriver/*.cpp
-[ 31% 215/690] glob frameworks/base/core/java/**/*.java
+[ 31% 214/690] glob external/llvm/lib/LTO/*.cpp
+[ 31% 215/690] glob external/llvm/lib/LibDriver/*.cpp
 [ 31% 216/690] glob external/llvm/lib/Linker/*.cpp
 [ 31% 217/690] glob external/llvm/lib/MC/MCDisassembler/*.cpp
 [ 31% 218/690] glob external/llvm/lib/MC/MCParser/*.cpp
@@ -500,48 +498,48 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 32% 221/690] glob external/llvm/lib/ObjectYAML/*.cpp
 [ 32% 222/690] glob external/bouncycastle/src
 [ 32% 223/690] glob external/protobuf/javanano/src/main/java/com/google/protobuf/nano/**/*.java
-[ 32% 224/690] glob external/libgsm/inc
-[ 32% 225/690] glob external/protobuf/src
-[ 32% 226/690] glob external/libhevc/common
+[ 32% 224/690] glob external/protobuf/src
+[ 32% 225/690] glob external/libhevc/common
+[ 32% 226/690] glob external/libgsm/inc
 [ 32% 227/690] glob external/libhevc/decoder
 [ 33% 228/690] glob external/libmpeg2/common
 [ 33% 229/690] glob external/llvm/lib/Option/*.cpp
 [ 33% 230/690] glob external/llvm/lib/Passes/*.cpp
 [ 33% 231/690] glob external/llvm/lib/ProfileData/Coverage/*.cpp
 [ 33% 232/690] glob external/llvm/lib/ProfileData/*.cpp
-[ 33% 233/690] glob external/llvm/lib/Support/*.c
-[ 33% 234/690] glob external/llvm/lib/Support/*.cpp
+[ 33% 233/690] glob external/llvm/lib/Support/*.cpp
+[ 33% 234/690] glob external/llvm/lib/Support/*.c
 [ 34% 235/690] glob external/llvm/lib/TableGen/*.cpp
 [ 34% 236/690] glob external/llvm/lib/Target/AArch64/AsmParser/*.cpp
-[ 34% 237/690] glob external/clang/lib/Frontend/Rewrite/*.cpp
-[ 34% 238/690] glob external/llvm/lib/Target/AArch64/Disassembler/*.cpp
+[ 34% 237/690] glob external/llvm/lib/Target/AArch64/Disassembler/*.cpp
+[ 34% 238/690] glob external/clang/lib/Frontend/Rewrite/*.cpp
 [ 34% 239/690] glob dalvik/dx/src
-[ 34% 240/690] glob external/clang/lib/Format/*.cpp
-[ 34% 241/690] glob external/clang/lib/Tooling/*.cpp
+[ 34% 240/690] glob external/clang/lib/Tooling/*.cpp
+[ 34% 241/690] glob external/clang/lib/Format/*.cpp
 [ 35% 242/690] glob external/clang/lib/Edit/*.cpp
 [ 35% 243/690] glob dalvik
 [ 35% 244/690] glob build/target/product/security
 [ 35% 245/690] glob build/soong/scripts/jar-wrapper.sh
 [ 35% 246/690] glob build/soong/python/scripts/stub_template_host.txt
-[ 35% 247/690] glob external/clang/tools/driver/*.cpp
-[ 35% 248/690] glob external/conscrypt/android/src/main/java/**/*.java
+[ 35% 247/690] glob external/conscrypt/android/src/main/java/**/*.java
+[ 35% 248/690] glob external/clang/tools/driver/*.cpp
 [ 36% 249/690] glob build/soong/cc/config/cfi_exports.map
 [ 36% 250/690] glob external/clang/lib/Frontend/*.cpp
 [ 36% 251/690] glob build/make/tools/signtos/src
-[ 36% 252/690] glob build/make/tools/signapk/src/**/*.java
-[ 36% 253/690] glob external/clang/lib/Headers
-[ 36% 254/690] glob external/clang/lib/FrontendTool/*.cpp
-[ 36% 255/690] glob build/make/tools/signapk/src
-[ 37% 256/690] glob external/clang/lib/Index/*.cpp
+[ 36% 252/690] glob external/clang/lib/Headers
+[ 36% 253/690] glob external/clang/lib/FrontendTool/*.cpp
+[ 36% 254/690] glob build/make/tools/signapk/src/**/*.java
+[ 36% 255/690] glob external/clang/lib/Index/*.cpp
+[ 37% 256/690] glob build/make/tools/signapk/src
 [ 37% 257/690] glob external/clang/tools/libclang/*.cpp
-[ 37% 258/690] glob bionic/tests/headers/posix/*.c
-[ 37% 259/690] glob bionic/libstdc++/include
-[ 37% 260/690] glob external/conscrypt/common/src/jni/main/cpp/**/*.cc
+[ 37% 258/690] glob external/conscrypt/common/src/jni/main/cpp/**/*.cc
+[ 37% 259/690] glob bionic/tests/headers/posix/*.c
+[ 37% 260/690] glob bionic/libstdc++/include
 [ 37% 261/690] glob external/clang/lib/Parse/*.cpp
 [ 37% 262/690] glob external/clang/lib/Lex/*.cpp
 [ 38% 263/690] glob bionic/libc/versioner-dependencies/**/*
-[ 38% 264/690] glob bionic/libc/tzcode/**/*.c
-[ 38% 265/690] glob bionic/libc/versioner-dependencies
+[ 38% 264/690] glob bionic/libc/versioner-dependencies
+[ 38% 265/690] glob bionic/libc/tzcode/**/*.c
 [ 38% 266/690] glob external/clang/lib/Rewrite/*.cpp
 [ 38% 267/690] glob external/clang/lib/Serialization/*.cpp
 [ 38% 268/690] glob bionic/libc/private
@@ -549,21 +547,21 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 39% 270/690] glob bionic/libc/kernel/uapi/xen/**/*.h
 [ 39% 271/690] glob external/clang/lib/StaticAnalyzer/Core/*.cpp
 [ 39% 272/690] glob bionic/libc/kernel/uapi/video/**/*.h
-[ 39% 273/690] glob bionic/libc/kernel/uapi/mtd/**/*.h
-[ 39% 274/690] glob external/compiler-rt/lib/sanitizer_common/tests
+[ 39% 273/690] glob external/compiler-rt/lib/sanitizer_common/tests
+[ 39% 274/690] glob bionic/libc/kernel/uapi/mtd/**/*.h
 [ 39% 275/690] glob external/clang/lib/StaticAnalyzer/Checkers/MPI-Checker/*.cpp
 [ 40% 276/690] glob bionic/libc/kernel/uapi/misc/**/*.h
 [ 40% 277/690] glob external/turbine/proto/**/*.proto
-[ 40% 278/690] glob external/valgrind
-[ 40% 279/690] glob external/turbine/src
-[ 40% 280/690] glob external/valgrind/include
-[ 40% 281/690] glob external/vixl/src
-[ 40% 282/690] glob external/vixl/src/*.cc
-[ 41% 283/690] glob external/vixl/src/aarch32/*.cc
-[ 41% 284/690] glob external/vixl/src/aarch64/*.cc
+[ 40% 278/690] glob external/turbine/src
+[ 40% 279/690] glob external/valgrind/include
+[ 40% 280/690] glob external/valgrind
+[ 40% 281/690] glob external/vixl/src/*.cc
+[ 40% 282/690] glob external/vixl/src
+[ 41% 283/690] glob external/vixl/src/aarch64/*.cc
+[ 41% 284/690] glob external/vixl/src/aarch32/*.cc
 [ 41% 285/690] glob external/vixl/test/*.cc
-[ 41% 286/690] glob external/vixl/test/aarch32/*.cc
-[ 41% 287/690] glob external/vixl/test/aarch64/*.cc
+[ 41% 286/690] glob external/vixl/test/aarch64/*.cc
+[ 41% 287/690] glob external/vixl/test/aarch32/*.cc
 [ 41% 288/690] glob external/vixl/test/test-trace-reference/*
 [ 41% 289/690] glob external/wayland-protocols/chromium.org/**/*.xml
 [ 42% 290/690] glob external/wayland-protocols/freedesktop.org/**/*.xml
@@ -571,16 +569,16 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 42% 292/690] glob external/zlib
 [ 42% 293/690] glob frameworks/av/camera/aidl
 [ 42% 294/690] glob frameworks/av/camera/ndk/include/camera/**/*.h
-[ 42% 295/690] glob frameworks/av/include
-[ 42% 296/690] glob frameworks/av/include/media
+[ 42% 295/690] glob frameworks/av/include/media
+[ 42% 296/690] glob frameworks/av/include
 [ 43% 297/690] glob frameworks/av/media/libaudioclient/aidl
-[ 43% 298/690] glob frameworks/base/packages/EasterEgg/assets
+[ 43% 298/690] glob frameworks/base/media/mca/filterpacks/java/**/*.java
 [ 43% 299/690] glob frameworks/base/opengl/java/**/*.java
-[ 43% 300/690] glob frameworks/base/media/mca/filterpacks/java/**/*.java
+[ 43% 300/690] glob frameworks/base/packages/EasterEgg/assets
 [ 43% 301/690] glob frameworks/base/packages/EasterEgg/res/**/*
 [ 43% 302/690] glob frameworks/base/packages/EasterEgg/src
-[ 43% 303/690] glob frameworks/base/packages/EasterEgg/src/**/*.kt
-[ 44% 304/690] glob frameworks/base/packages/EasterEgg/src/**/*.java
+[ 43% 303/690] glob frameworks/base/packages/EasterEgg/src/**/*.java
+[ 44% 304/690] glob frameworks/base/packages/EasterEgg/src/**/*.kt
 [ 44% 305/690] glob frameworks/base/proto/src
 [ 44% 306/690] glob frameworks/base/proto/src/**/*.proto
 [ 44% 307/690] glob frameworks/base/rs/java/**/*.java
@@ -591,23 +589,23 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 45% 312/690] glob frameworks/base/services/appwidget/src
 [ 45% 313/690] glob frameworks/base/services/autofill/java/**/*.java
 [ 45% 314/690] glob frameworks/base/services/autofill/src
-[ 45% 315/690] glob frameworks/base/services/backup/src
-[ 45% 316/690] glob frameworks/base/services/backup/java/**/*.java
+[ 45% 315/690] glob frameworks/base/services/backup/java/**/*.java
+[ 45% 316/690] glob frameworks/base/services/backup/src
 [ 45% 317/690] glob frameworks/base/services/companion/java/**/*.java
 [ 46% 318/690] glob frameworks/base/services/companion/src
 [ 46% 319/690] glob frameworks/base/services/core/src
 [ 46% 320/690] glob frameworks/base/services/coverage/java/**/*.java
 [ 46% 321/690] glob frameworks/base/services/coverage/src
-[ 46% 322/690] glob frameworks/base/services/devicepolicy/java/**/*.java
-[ 46% 323/690] glob frameworks/base/services/java/**/*.java
-[ 46% 324/690] glob frameworks/base/services/devicepolicy/src
+[ 46% 322/690] glob frameworks/base/services/devicepolicy/src
+[ 46% 323/690] glob frameworks/base/services/devicepolicy/java/**/*.java
+[ 46% 324/690] glob frameworks/base/services/java/**/*.java
 [ 47% 325/690] glob frameworks/base/services/midi/java/**/*.java
-[ 47% 326/690] glob frameworks/base/services/core/java/**/*.java
-[ 47% 327/690] glob frameworks/base/services/midi/src
-[ 47% 328/690] glob frameworks/base/services/net/src
-[ 47% 329/690] glob frameworks/base/services/net/java/**/*.java
-[ 47% 330/690] glob frameworks/base/services/print/java/**/*.java
-[ 47% 331/690] glob frameworks/base/services/print/src
+[ 47% 326/690] glob frameworks/base/services/midi/src
+[ 47% 327/690] glob frameworks/base/services/net/java/**/*.java
+[ 47% 328/690] glob frameworks/base/services/core/java/**/*.java
+[ 47% 329/690] glob frameworks/base/services/net/src
+[ 47% 330/690] glob frameworks/base/services/print/src
+[ 47% 331/690] glob frameworks/base/services/print/java/**/*.java
 [ 48% 332/690] glob frameworks/base/services/restrictions/java/**/*.java
 [ 48% 333/690] glob frameworks/base/services/restrictions/src
 [ 48% 334/690] glob frameworks/base/services/src
@@ -615,36 +613,36 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 48% 336/690] glob frameworks/base/services/usage/src
 [ 48% 337/690] glob frameworks/base/services/usb/src
 [ 48% 338/690] glob frameworks/base/services/usb/java/**/*.java
-[ 49% 339/690] glob frameworks/base/services/voiceinteraction/java/**/*.java
-[ 49% 340/690] glob frameworks/base/services/voiceinteraction/src
+[ 49% 339/690] glob frameworks/base/services/voiceinteraction/src
+[ 49% 340/690] glob frameworks/base/services/voiceinteraction/java/**/*.java
 [ 49% 341/690] glob frameworks/base/src
 [ 49% 342/690] glob frameworks/base/telecomm/java/**/*.java
 [ 49% 343/690] glob frameworks/base/test-base/src
-[ 49% 344/690] glob frameworks/base/test-base/src/**/*.java
+[ 49% 344/690] glob frameworks/base/test-base/src/android/**/*.java
 [ 50% 345/690] glob frameworks/base/telephony/java/**/*.java
-[ 50% 346/690] glob frameworks/base/test-base/src/android/**/*.java
+[ 50% 346/690] glob frameworks/base/test-base/src/**/*.java
 [ 50% 347/690] glob frameworks/base/test-base/src/com/**/*.java
 [ 50% 348/690] glob frameworks/base/test-legacy/src
 [ 50% 349/690] glob frameworks/base/test-mock/src
 [ 50% 350/690] glob frameworks/base/test-mock/src/**/*.java
 [ 50% 351/690] glob frameworks/base/test-runner/src
 [ 51% 352/690] glob frameworks/base/test-runner/src/**/*.java
-[ 51% 353/690] glob frameworks/base/test-runner/src/**/*.java
-[ 51% 354/690] glob frameworks/base/test-runner/src/android/**/*.java
+[ 51% 353/690] glob frameworks/base/test-runner/src/android/**/*.java
+[ 51% 354/690] glob frameworks/base/test-runner/src/**/*.java
 [ 51% 355/690] glob frameworks/base/tools
 [ 51% 356/690] glob external/clang/lib/StaticAnalyzer/Checkers/*.cpp
 [ 51% 357/690] glob bionic/libc/kernel/uapi/drm/**/*.h
-[ 51% 358/690] glob bionic/libc/kernel/uapi/linux/**/*.h
-[ 52% 359/690] glob frameworks/base/tools/aapt2/**/*_test.cpp
+[ 51% 358/690] glob frameworks/base/tools/aapt2/**/*_test.cpp
+[ 52% 359/690] glob bionic/libc/kernel/uapi/linux/**/*.h
 [ 52% 360/690] glob bionic/libc/kernel/uapi/asm-x86/**/*.h
 [ 52% 361/690] glob bionic/libc/kernel/uapi/asm-x86
 [ 52% 362/690] glob bionic/libc/kernel/uapi/asm-mips/**/*.h
 [ 52% 363/690] glob bionic/libc/kernel/uapi/asm-mips
 [ 52% 364/690] glob bionic/libc/kernel/uapi/asm-generic/**/*.h
 [ 52% 365/690] glob external/compiler-rt/include
-[ 53% 366/690] glob external/compiler-rt/lib/tsan/rtl/*.cc
-[ 53% 367/690] glob bionic/libc/kernel/uapi/asm-arm64/**/*.h
-[ 53% 368/690] glob bionic/libc/kernel/uapi/asm-arm64
+[ 53% 366/690] glob bionic/libc/kernel/uapi/asm-arm64/**/*.h
+[ 53% 367/690] glob bionic/libc/kernel/uapi/asm-arm64
+[ 53% 368/690] glob external/compiler-rt/lib/tsan/rtl/*.cc
 [ 53% 369/690] glob bionic/libc/kernel/uapi/asm-arm/**/*.h
 [ 53% 370/690] glob external/e2fsprogs/include/mingw
 [ 53% 371/690] glob bionic/libc/kernel/uapi/asm-arm
@@ -653,15 +651,15 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 54% 374/690] glob external/icu/android_icu4j/resources/**/*
 [ 54% 375/690] glob external/icu/android_icu4j/src/main/java/android/icu/lang/**/*.java
 [ 54% 376/690] glob bionic/libc/kernel/android/uapi/linux/**/*.h
-[ 54% 377/690] glob external/icu/android_icu4j/src/main/java/**/*.java
-[ 54% 378/690] glob external/conscrypt/openjdk/src/main/java/**/*.java
-[ 54% 379/690] glob bionic/libc/kernel/android/uapi
+[ 54% 377/690] glob external/conscrypt/openjdk/src/main/java/**/*.java
+[ 54% 378/690] glob bionic/libc/kernel/android/uapi
+[ 54% 379/690] glob external/icu/android_icu4j/src/main/java/**/*.java
 [ 55% 380/690] glob external/icu/android_icu4j/src/main/java/android/icu/math/**/*.java
-[ 55% 381/690] glob external/icu/android_icu4j/src/main/java/android/icu/util/**/*.java
-[ 55% 382/690] glob external/icu/android_icu4j/src/main/java/android/icu/text/**/*.java
-[ 55% 383/690] glob bionic/libc/kernel/android/scsi/**/*.h
-[ 55% 384/690] glob external/flac/include
-[ 55% 385/690] glob external/flatbuffers/include
+[ 55% 381/690] glob external/icu/android_icu4j/src/main/java/android/icu/text/**/*.java
+[ 55% 382/690] glob external/icu/android_icu4j/src/main/java/android/icu/util/**/*.java
+[ 55% 383/690] glob external/flac/include
+[ 55% 384/690] glob external/flatbuffers/include
+[ 55% 385/690] glob bionic/libc/kernel/android/scsi/**/*.h
 [ 55% 386/690] glob external/llvm/tools/dsymutil/*.cpp
 [ 56% 387/690] glob external/llvm/tools/llvm-c-test/*.c
 [ 56% 388/690] glob external/llvm/tools/llvm-c-test/*.cpp
@@ -669,44 +667,44 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 56% 390/690] glob external/llvm/tools/llvm-dwp/*.cpp
 [ 56% 391/690] glob external/llvm/tools/llvm-pdbdump/*.cpp
 [ 56% 392/690] glob external/llvm/tools/llvm-readobj/*.cpp
-[ 56% 393/690] glob external/llvm/tools/opt/*.cpp
-[ 57% 394/690] glob external/llvm/tools/obj2yaml/*.cpp
-[ 57% 395/690] glob external/llvm/tools/yaml2obj/*.cpp
-[ 57% 396/690] glob frameworks/base/core/res/res/**/*
+[ 56% 393/690] glob external/llvm/tools/obj2yaml/*.cpp
+[ 57% 394/690] glob frameworks/base/core/res/res/**/*
+[ 57% 395/690] glob external/llvm/tools/opt/*.cpp
+[ 57% 396/690] glob external/llvm/tools/yaml2obj/*.cpp
 [ 57% 397/690] glob external/llvm/utils/TableGen/*.cpp
 [ 57% 398/690] glob external/lz4/lib
 [ 57% 399/690] glob external/nos/host/generic/nugget/proto
 [ 57% 400/690] glob bionic/libc/dns/include
 [ 58% 401/690] glob external/clang/utils/TableGen/*.cpp
 [ 58% 402/690] glob bionic/libc/dns/**/*.c
-[ 58% 403/690] glob external/conscrypt/platform/src/main/java/**/*.java
-[ 58% 404/690] glob bionic/libc/include/**/*.h
+[ 58% 403/690] glob bionic/libc/include/**/*.h
+[ 58% 404/690] glob external/conscrypt/platform/src/main/java/**/*.java
 [ 58% 405/690] glob bionic/libc/async_safe/include
-[ 58% 406/690] glob bionic/libc
-[ 58% 407/690] glob bionic/libc/arch-arm64/syscalls/**/*.S
+[ 58% 406/690] glob bionic/libc/arch-arm64/syscalls/**/*.S
+[ 58% 407/690] glob bionic/libc
 [ 59% 408/690] glob bionic/libc/arch-arm/syscalls/**/*.S
 [ 59% 409/690] glob external/conscrypt/android-stub/src/main/java/**/*.java
 [ 59% 410/690] glob bionic/benchmarks/test_suites/*
-[ 59% 411/690] glob bionic/benchmarks/suites/*
-[ 59% 412/690] glob bionic
+[ 59% 411/690] glob bionic
+[ 59% 412/690] glob bionic/benchmarks/suites/*
 [ 59% 413/690] glob art/test/ti-agent
 [ 60% 414/690] glob art/sigchainlib
-[ 60% 415/690] glob art/runtime
-[ 60% 416/690] glob art/libdexfile
+[ 60% 415/690] glob art/libdexfile
+[ 60% 416/690] glob art/runtime
 [ 60% 417/690] glob art/libartbase
-[ 60% 418/690] glob external/llvm/lib/Target/AArch64/InstPrinter/*.cpp
-[ 60% 419/690] glob art/disassembler
+[ 60% 418/690] glob art/disassembler
+[ 60% 419/690] glob external/llvm/lib/Target/AArch64/InstPrinter/*.cpp
 [ 60% 420/690] glob external/llvm/lib/Target/AArch64/MCTargetDesc/*.cpp
 [ 61% 421/690] glob external/llvm/lib/Target/AArch64/TargetInfo/*.cpp
 [ 61% 422/690] glob external/llvm/lib/Target/AArch64/Utils/*.cpp
-[ 61% 423/690] glob external/llvm/lib/Target/AArch64/*.cpp
+[ 61% 423/690] glob external/llvm/lib/Target/ARM/Disassembler/*.cpp
 [ 61% 424/690] glob external/llvm/lib/Target/ARM/AsmParser/*.cpp
-[ 61% 425/690] glob external/llvm/lib/Target/ARM/Disassembler/*.cpp
+[ 61% 425/690] glob external/llvm/lib/Target/AArch64/*.cpp
 [ 61% 426/690] glob external/llvm/lib/Target/ARM/InstPrinter/*.cpp
 [ 61% 427/690] glob external/llvm/lib/Target/ARM/MCTargetDesc/*.cpp
 [ 62% 428/690] glob external/llvm/lib/Target/ARM/TargetInfo/*.cpp
-[ 62% 429/690] glob external/llvm/lib/Target/ARM/*.cpp
-[ 62% 430/690] glob external/llvm/lib/Target/X86/Utils/*.cpp
+[ 62% 429/690] glob external/llvm/lib/Target/X86/Utils/*.cpp
+[ 62% 430/690] glob external/llvm/lib/Target/ARM/*.cpp
 [ 62% 431/690] glob external/llvm/lib/Target/X86/*.cpp
 [ 62% 432/690] glob external/llvm/lib/Target/*.cpp
 [ 62% 433/690] glob external/llvm/lib/Transforms/Hello/*.cpp
@@ -722,20 +720,20 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 64% 443/690] glob external/icu/icu4c/source/common
 [ 64% 444/690] glob external/libavc/common
 [ 64% 445/690] glob external/libmpeg2/decoder
-[ 64% 446/690] glob external/libunwind/include/tdep
-[ 64% 447/690] glob external/libtextclassifier
+[ 64% 446/690] glob external/libtextclassifier
+[ 64% 447/690] glob external/libunwind/include/tdep
 [ 64% 448/690] glob external/libunwind_llvm/include
-[ 65% 449/690] glob external/libvpx/libwebm
-[ 65% 450/690] glob external/libxaac/decoder
-[ 65% 451/690] glob external/conscrypt/src
+[ 65% 449/690] glob external/libxaac/decoder
+[ 65% 450/690] glob external/conscrypt/src
+[ 65% 451/690] glob external/libvpx/libwebm
 [ 65% 452/690] glob external/e2fsprogs/e2fsck
 [ 65% 453/690] glob external/e2fsprogs/lib
-[ 65% 454/690] glob external/llvm/lib/DebugInfo/CodeView/*.cpp
-[ 65% 455/690] glob external/e2fsprogs/misc
-[ 66% 456/690] glob external/llvm/lib/CodeGen/*.cpp
+[ 65% 454/690] glob external/e2fsprogs/misc
+[ 65% 455/690] glob external/llvm/lib/DebugInfo/CodeView/*.cpp
+[ 66% 456/690] glob external/llvm/lib/DebugInfo/PDB/Raw/*.cpp
 [ 66% 457/690] glob external/llvm/lib/DebugInfo/DWARF/*.cpp
-[ 66% 458/690] glob external/llvm/lib/DebugInfo/PDB/*.cpp
-[ 66% 459/690] glob external/llvm/lib/DebugInfo/PDB/Raw/*.cpp
+[ 66% 458/690] glob external/llvm/lib/CodeGen/*.cpp
+[ 66% 459/690] glob external/llvm/lib/DebugInfo/PDB/*.cpp
 [ 66% 460/690] glob external/llvm/lib/DebugInfo/Symbolize/*.cpp
 [ 66% 461/690] glob external/compiler-rt/lib/sanitizer_common/*.cc
 [ 66% 462/690] glob external/libcxx/include
@@ -743,23 +741,23 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 67% 464/690] glob external/python/cpython2/Lib/importlib/**/*.py
 [ 67% 465/690] glob external/libavc/decoder
 [ 67% 466/690] glob external/libavc/encoder
-[ 67% 467/690] glob external/f2fs-tools/include
-[ 67% 468/690] glob external/conscrypt/common/src/main/java/**/*.java
-[ 67% 469/690] glob external/eigen
+[ 67% 467/690] glob external/conscrypt/common/src/main/java/**/*.java
+[ 67% 468/690] glob external/eigen
+[ 67% 469/690] glob external/f2fs-tools/include
 [ 68% 470/690] glob hardware/interfaces/graphics/common/1.1/src
 [ 68% 471/690] glob hardware/interfaces/health/1.0/src
-[ 68% 472/690] glob hardware/interfaces/ir/1.0/src
-[ 68% 473/690] glob hardware/interfaces/light/2.0/src
-[ 68% 474/690] glob hardware/interfaces/health/2.0/src
-[ 68% 475/690] glob hardware/interfaces/memtrack/1.0/src
-[ 68% 476/690] glob external/libchrome/**/*.h
+[ 68% 472/690] glob hardware/interfaces/health/2.0/src
+[ 68% 473/690] glob hardware/interfaces/ir/1.0/src
+[ 68% 474/690] glob hardware/interfaces/light/2.0/src
+[ 68% 475/690] glob external/libchrome/**/*.h
+[ 68% 476/690] glob hardware/interfaces/memtrack/1.0/src
 [ 69% 477/690] glob hardware/interfaces/nfc/1.0/src
 [ 69% 478/690] glob hardware/interfaces/nfc/1.1/src
 [ 69% 479/690] glob hardware/interfaces/oemlock/1.0/src
 [ 69% 480/690] glob hardware/interfaces/power/1.0/src
-[ 69% 481/690] glob hardware/interfaces/power/1.1/src
-[ 69% 482/690] glob hardware/interfaces/power/1.3/src
-[ 70% 483/690] glob hardware/interfaces/power/1.2/src
+[ 69% 481/690] glob hardware/interfaces/power/1.2/src
+[ 69% 482/690] glob hardware/interfaces/power/1.1/src
+[ 70% 483/690] glob hardware/interfaces/power/1.3/src
 [ 70% 484/690] glob hardware/interfaces/radio/1.0/src
 [ 70% 485/690] glob hardware/interfaces/radio/1.1/src
 [ 70% 486/690] glob hardware/interfaces/radio/1.2/src
@@ -771,36 +769,36 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 71% 492/690] glob hardware/interfaces/tests/baz/1.0/src
 [ 71% 493/690] glob hardware/interfaces/tests/expression/1.0/src
 [ 71% 494/690] glob hardware/interfaces/tests/extension/light/2.0/src
-[ 71% 495/690] glob hardware/interfaces/tests/libhwbinder/1.0/src
-[ 71% 496/690] glob hardware/interfaces/tests/hash/1.0/src
-[ 72% 497/690] glob hardware/interfaces/tests/inheritance/1.0/src
+[ 71% 495/690] glob hardware/interfaces/tests/hash/1.0/src
+[ 71% 496/690] glob hardware/interfaces/tests/inheritance/1.0/src
+[ 72% 497/690] glob hardware/interfaces/tests/libhwbinder/1.0/src
 [ 72% 498/690] glob hardware/interfaces/tests/multithread/1.0/src
 [ 72% 499/690] glob hardware/interfaces/tetheroffload/control/1.0/src
 [ 72% 500/690] glob hardware/interfaces/thermal/1.0/src
-[ 72% 501/690] glob hardware/interfaces/vibrator/1.0/src
-[ 72% 502/690] glob hardware/interfaces/thermal/1.1/src
+[ 72% 501/690] glob hardware/interfaces/thermal/1.1/src
+[ 72% 502/690] glob hardware/interfaces/vibrator/1.0/src
 [ 72% 503/690] glob hardware/interfaces/vibrator/1.1/src
 [ 73% 504/690] glob hardware/interfaces/wifi/1.2/src
 [ 73% 505/690] glob hardware/interfaces/wifi/hostapd/1.0/src
 [ 73% 506/690] glob hardware/interfaces/wifi/supplicant/1.0/src
 [ 73% 507/690] glob hardware/interfaces/wifi/supplicant/1.1/src
-[ 73% 508/690] glob hardware/libhardware/include
-[ 73% 509/690] glob hardware/nxp/nfc/extns/intf/nxpnfc/1.0/src
+[ 73% 508/690] glob hardware/nxp/nfc/extns/intf/nxpnfc/1.0/src
+[ 73% 509/690] glob hardware/libhardware/include
 [ 73% 510/690] glob hardware/nxp/secure_element/extns/intf/nxpese/1.0/src
 [ 74% 511/690] glob libcore/dalvik/test-rules/src/main/**/*.java
 [ 74% 512/690] glob libcore/include
 [ 74% 513/690] glob libcore/jsr166-tests/src/test/java/**/*.java
-[ 74% 514/690] glob libcore/ojluni/src/main/resources/**/*
+[ 74% 514/690] glob libcore/src
 [ 74% 515/690] glob libcore/luni/src/main/native
-[ 74% 516/690] glob libcore/src
-[ 74% 517/690] glob libcore/luni/src/main/java/**/*
-[ 75% 518/690] glob libcore/test-rules/src/main/**/*.java
+[ 74% 516/690] glob libcore/ojluni/src/main/resources/**/*
+[ 74% 517/690] glob libcore/test-rules/src/main/**/*.java
+[ 75% 518/690] glob libcore/luni/src/main/java/**/*
 [ 75% 519/690] glob libnativehelper/header_only_include
 [ 75% 520/690] glob libnativehelper/include_jni
 [ 75% 521/690] glob libnativehelper/platform_include
 [ 75% 522/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libEGL.so.lsdump.gz
-[ 75% 523/690] glob libcore/support/src/test/java/**/*.java
-[ 75% 524/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libGLESv1_CM.so.lsdump.gz
+[ 75% 523/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libGLESv1_CM.so.lsdump.gz
+[ 75% 524/690] glob libcore/support/src/test/java/**/*.java
 [ 76% 525/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libGLESv2.so.lsdump.gz
 [ 76% 526/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libGLESv3.so.lsdump.gz
 [ 76% 527/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libRS.so.lsdump.gz
@@ -816,9 +814,9 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 77% 537/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libvndksupport.so.lsdump.gz
 [ 77% 538/690] glob prebuilts/abi-dumps/ndk/28/64/arm64_armv8-a/source-based/libvulkan.so.lsdump.gz
 [ 78% 539/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libEGL.so.lsdump.gz
-[ 78% 540/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libGLESv1_CM.so.lsdump.gz
-[ 78% 541/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libGLESv2.so.lsdump.gz
-[ 78% 542/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libGLESv3.so.lsdump.gz
+[ 78% 540/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libGLESv3.so.lsdump.gz
+[ 78% 541/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libGLESv1_CM.so.lsdump.gz
+[ 78% 542/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libGLESv2.so.lsdump.gz
 [ 78% 543/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libRS.so.lsdump.gz
 [ 78% 544/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libandroid_net.so.lsdump.gz
 [ 78% 545/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libc.so.lsdump.gz
@@ -829,9 +827,9 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 79% 550/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libmediandk.so.lsdump.gz
 [ 79% 551/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libnativewindow.so.lsdump.gz
 [ 80% 552/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libsync.so.lsdump.gz
-[ 80% 553/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libvndksupport.so.lsdump.gz
-[ 80% 554/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libvulkan.so.lsdump.gz
-[ 80% 555/690] glob prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar
+[ 80% 553/690] glob prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar
+[ 80% 554/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libvndksupport.so.lsdump.gz
+[ 80% 555/690] glob prebuilts/abi-dumps/ndk/28/64/arm_armv7-a-neon/source-based/libvulkan.so.lsdump.gz
 [ 80% 556/690] glob prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar
 [ 80% 557/690] glob prebuilts/misc/common/androidx-test/assets
 [ 80% 558/690] glob prebuilts/misc/common/androidx-test/res
@@ -841,11 +839,11 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 81% 562/690] glob prebuilts/ndk/current/platforms/android-16/arch-arm/usr/lib
 [ 81% 563/690] glob prebuilts/ndk/current/platforms/android-17/arch-arm/usr/lib
 [ 81% 564/690] glob prebuilts/ndk/current/platforms/android-18/arch-arm/usr/lib
-[ 81% 565/690] glob prebuilts/ndk/current/platforms/android-21/arch-arm/usr/lib
-[ 82% 566/690] glob prebuilts/ndk/current/platforms/android-21/arch-arm64/usr/lib
-[ 82% 567/690] glob prebuilts/ndk/current/platforms/android-19/arch-arm/usr/lib
-[ 82% 568/690] glob prebuilts/ndk/current/platforms/android-22/arch-arm64/usr/lib
-[ 82% 569/690] glob prebuilts/ndk/current/platforms/android-22/arch-arm/usr/lib
+[ 81% 565/690] glob prebuilts/ndk/current/platforms/android-19/arch-arm/usr/lib
+[ 82% 566/690] glob prebuilts/ndk/current/platforms/android-21/arch-arm/usr/lib
+[ 82% 567/690] glob prebuilts/ndk/current/platforms/android-21/arch-arm64/usr/lib
+[ 82% 568/690] glob prebuilts/ndk/current/platforms/android-22/arch-arm/usr/lib
+[ 82% 569/690] glob prebuilts/ndk/current/platforms/android-22/arch-arm64/usr/lib
 [ 82% 570/690] glob prebuilts/ndk/current/platforms/android-23/arch-arm/usr/lib
 [ 82% 571/690] glob prebuilts/ndk/current/platforms/android-23/arch-arm64/usr/lib
 [ 82% 572/690] glob prebuilts/ndk/current/platforms/android-24/arch-arm/usr/lib
@@ -861,8 +859,8 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 84% 582/690] glob prebuilts/sdk/8/framework.aidl
 [ 84% 583/690] glob prebuilts/sdk/9/android.jar
 [ 84% 584/690] glob prebuilts/sdk/9/framework.aidl
-[ 84% 585/690] glob prebuilts/sdk/current/androidx/assets
-[ 84% 586/690] glob prebuilts/sdk/current/android.jar
+[ 84% 585/690] glob prebuilts/sdk/current/android.jar
+[ 84% 586/690] glob prebuilts/sdk/current/androidx/assets
 [ 85% 587/690] glob prebuilts/sdk/current/androidx/res
 [ 85% 588/690] glob prebuilts/sdk/current/androidx/src
 [ 85% 589/690] glob prebuilts/sdk/current/core.jar
@@ -874,20 +872,20 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 86% 595/690] glob prebuilts/sdk/current/extras/constraint-layout-x/src
 [ 86% 596/690] glob prebuilts/sdk/current/extras/constraint-layout/assets
 [ 86% 597/690] glob prebuilts/sdk/current/extras/constraint-layout/res
-[ 86% 598/690] glob prebuilts/sdk/current/extras/material-design-split-x/assets
-[ 86% 599/690] glob prebuilts/sdk/current/extras/constraint-layout/src
+[ 86% 598/690] glob prebuilts/sdk/current/extras/constraint-layout/src
+[ 86% 599/690] glob prebuilts/sdk/current/extras/material-design-split-x/assets
 [ 86% 600/690] glob prebuilts/sdk/current/extras/material-design-split-x/res
 [ 87% 601/690] glob prebuilts/sdk/current/extras/material-design-split-x/src
 [ 87% 602/690] glob prebuilts/sdk/current/extras/material-design-x/assets
 [ 87% 603/690] glob prebuilts/sdk/current/extras/material-design-x/res
-[ 87% 604/690] glob prebuilts/sdk/current/extras/material-design-x/src
-[ 87% 605/690] glob prebuilts/sdk/current/extras/material-design/assets
-[ 87% 606/690] glob prebuilts/sdk/current/extras/material-design/res
-[ 87% 607/690] glob prebuilts/sdk/current/extras/material-design/src
+[ 87% 604/690] glob prebuilts/sdk/current/extras/material-design/assets
+[ 87% 605/690] glob prebuilts/sdk/current/extras/material-design-x/src
+[ 87% 606/690] glob prebuilts/sdk/current/extras/material-design/src
+[ 87% 607/690] glob prebuilts/sdk/current/extras/material-design/res
 [ 88% 608/690] glob prebuilts/sdk/current/framework.aidl
-[ 88% 609/690] glob prebuilts/sdk/current/support/assets
-[ 88% 610/690] glob prebuilts/sdk/current/support/src
-[ 88% 611/690] glob prebuilts/sdk/current/support/res
+[ 88% 609/690] glob prebuilts/sdk/current/support/res
+[ 88% 610/690] glob prebuilts/sdk/current/support/assets
+[ 88% 611/690] glob prebuilts/sdk/current/support/src
 [ 88% 612/690] glob prebuilts/sdk/system_current/android.jar
 [ 88% 613/690] glob prebuilts/sdk/system_current/framework.aidl
 [ 88% 614/690] glob system/bt/binder
@@ -898,8 +896,8 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 89% 619/690] glob system/core/libbacktrace/testdata/arm64/*
 [ 89% 620/690] glob system/core/libbacktrace/testdata/x86/*
 [ 90% 621/690] glob system/core/libbacktrace/testdata/x86_64/*
-[ 90% 622/690] glob system/core/libsync/include
-[ 90% 623/690] glob system/core/libsparse/include
+[ 90% 622/690] glob system/core/libsparse/include
+[ 90% 623/690] glob system/core/libsync/include
 [ 90% 624/690] glob system/core/libunwindstack/tests/files/offline/art_quick_osr_stub_arm/*
 [ 90% 625/690] glob system/core/libunwindstack/tests/files/offline/bad_eh_frame_hdr_arm64/*
 [ 90% 626/690] glob system/core/libunwindstack/tests/files/offline/debug_frame_first_x86/*
@@ -911,10 +909,10 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 91% 632/690] glob system/core/libunwindstack/tests/files/offline/straddle_arm/*
 [ 91% 633/690] glob system/core/libunwindstack/tests/files/offline/straddle_arm64/*
 [ 91% 634/690] glob system/core/storaged/binder
-[ 92% 635/690] glob system/gatekeeper/include
-[ 92% 636/690] glob system/hardware/interfaces/net/netd/1.0/src
-[ 92% 637/690] glob system/hardware/interfaces/net/netd/1.1/src
-[ 92% 638/690] glob system/hardware/interfaces/wifi/keystore/1.0/src
+[ 92% 635/690] glob system/hardware/interfaces/net/netd/1.0/src
+[ 92% 636/690] glob system/gatekeeper/include
+[ 92% 637/690] glob system/hardware/interfaces/wifi/keystore/1.0/src
+[ 92% 638/690] glob system/hardware/interfaces/net/netd/1.1/src
 [ 92% 639/690] glob system/libhidl/transport/base/1.0/src
 [ 92% 640/690] glob system/libhidl/transport/manager/1.0/src
 [ 92% 641/690] glob system/libhidl/transport/manager/1.1/src
@@ -927,16 +925,16 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 93% 648/690] glob system/netd/server/binder
 [ 94% 649/690] glob system/security/keystore/binder
 [ 94% 650/690] glob system/timezone/distro/core/src
-[ 94% 651/690] glob system/timezone/distro/core/src/main/**/*.java
-[ 94% 652/690] glob system/timezone/distro/core/src/test/**/*.java
+[ 94% 651/690] glob system/timezone/distro/core/src/test/**/*.java
+[ 94% 652/690] glob system/timezone/distro/core/src/main/**/*.java
 [ 94% 653/690] glob system/timezone/distro/installer/src
 [ 94% 654/690] glob system/timezone/distro/installer/src/main/**/*.java
-[ 94% 655/690] glob system/timezone/distro/installer/src/test/**/*.java
+[ 94% 655/690] glob system/timezone/distro/tools/src/main/**/*.java
 [ 95% 656/690] glob system/timezone/distro/tools/src
-[ 95% 657/690] glob system/timezone/distro/tools/src/main/**/*.java
+[ 95% 657/690] glob system/timezone/distro/installer/src/test/**/*.java
 [ 95% 658/690] glob system/timezone/testing/src
-[ 95% 659/690] glob system/timezone/zone_compactor/main/java/**/*.java
-[ 95% 660/690] glob system/timezone/testing/src/main/**/*.java
+[ 95% 659/690] glob system/timezone/testing/src/main/**/*.java
+[ 95% 660/690] glob system/timezone/zone_compactor/main/java/**/*.java
 [ 95% 661/690] glob system/timezone/zone_compactor/src
 [ 95% 662/690] glob system/tools/hidl/docs/src
 [ 96% 663/690] glob system/tools/hidl/test/vendor/1.0/src
@@ -951,26 +949,26 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [ 97% 672/690] glob toolchain/pgo-profiles/art/dex2oat_arm_arm64.profdata.*
 [ 97% 673/690] glob toolchain/pgo-profiles/hwbinder/hwbinder.profdata
 [ 97% 674/690] glob toolchain/pgo-profiles/hwbinder/hwbinder.profdata.2018-03-20
-[ 97% 675/690] glob toolchain/pgo-profiles/hwbinder/hwbinder.profdata.*
-[ 97% 676/690] glob toolchain/pgo-profiles/hwui/hwui.profdata
+[ 97% 675/690] glob toolchain/pgo-profiles/hwui/hwui.profdata
+[ 97% 676/690] glob toolchain/pgo-profiles/hwbinder/hwbinder.profdata.*
 [ 98% 677/690] glob toolchain/pgo-profiles/hwui/hwui.profdata.2018-03-20
-[ 98% 678/690] glob tools/apkzlib/src
-[ 98% 679/690] glob toolchain/pgo-profiles/hwui/hwui.profdata.*
-[ 98% 680/690] glob tools/apkzlib/src/main/java/com/android/apkzlib/utils/**/*.java
-[ 98% 681/690] glob tools/apkzlib/src/main/java/**/*.java
+[ 98% 678/690] glob toolchain/pgo-profiles/hwui/hwui.profdata.*
+[ 98% 679/690] glob tools/apkzlib/src
+[ 98% 680/690] glob tools/apkzlib/src/main/java/**/*.java
+[ 98% 681/690] glob tools/apkzlib/src/main/java/com/android/apkzlib/utils/**/*.java
 [ 98% 682/690] glob tools/apkzlib/src/main/java/com/android/apkzlib/zip/**/*.java
 [ 98% 683/690] glob tools/metalava/src
-[ 99% 684/690] glob tools/metalava/src/main/java/**/*.java
-[ 99% 685/690] glob tools/metalava/src/main/java/**/*.kt
-[ 99% 686/690] glob tools/metalava/src/main/resources/**/*
+[ 99% 684/690] glob tools/metalava/src/main/resources/**/*
+[ 99% 685/690] glob tools/metalava/src/main/java/**/*.java
+[ 99% 686/690] glob tools/metalava/src/main/java/**/*.kt
 [ 99% 687/690] glob tools/metalava/stub-annotations/src/main/java/**/*.java
 [ 99% 688/690] glob vendor/omni/overlay/common/frameworks/base/core/res/res
 [ 99% 689/690] glob vendor/omni/overlay/common/**/*
 [  0% 1/15554] Notice file: external/libcxx/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/libc++.so.txt
-[  0% 2/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/link_type
-[  0% 3/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
-[  0% 4/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/link_type
-[  0% 5/15554] Notice file: external/compiler-rt/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/libcompiler_rt-extras.a.txt
+[  0% 2/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/link_type
+[  0% 3/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/link_type
+[  0% 4/15554] Notice file: external/compiler-rt/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/libcompiler_rt-extras.a.txt
+[  0% 5/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
 [  0% 6/15554] Notice file: external/compiler-rt/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib/libcompiler_rt-extras.a.txt
 [  0% 7/15554] Notice file: external/compiler-rt/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/windows-x86/obj/NOTICE_FILES/src/lib64/libcompiler_rt-extras.a.txt
 [  0% 8/15554] Notice file: external/compiler-rt/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/windows-x86/obj/NOTICE_FILES/src/lib/libcompiler_rt-extras.a.txt
@@ -979,22 +977,24 @@ build/make/core/base_rules.mk:412: warning: ignoring old commands for target `/h
 [  0% 11/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/SHARED_LIBRARIES/liblog_intermediates/link_type
 [  0% 12/15554] Notice file: system/core/liblog/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/liblog.so.txt
 [  0% 13/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/export_includes
-[  0% 14/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
-[  0% 15/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+[  0% 14/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+[  0% 15/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
 [  0% 16/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/link_type
 [  0% 17/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/SHARED_LIBRARIES/libcutils_intermediates/link_type
-[  0% 18/15554] Import includes file: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/import_includes
-[  0% 19/15554] Notice file: system/core/libcutils/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/libcutils.so.txt
+[  0% 18/15554] Notice file: system/core/libcutils/NOTICE -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/libcutils.so.txt
+[  0% 19/15554] Import includes file: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/import_includes
 [  0% 20/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libc++_intermediates/export_includes
-[  0% 21/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/link_type
-[  0% 22/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libc_intermediates/export_includes
-[  0% 23/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes
-[  0% 24/15554] host C: version_policy <= system/sepolicy/tools/version_policy.c
+[  0% 21/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libc_intermediates/export_includes
+[  0% 22/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libm_intermediates/export_includes
+[  0% 23/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libdl_intermediates/export_includes
+[  0% 24/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes
+[  0% 25/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/STATIC_LIBRARIES/libclang_rt.ubsan_minimal-arm-android_intermediates/export_includes
+[  0% 26/15554] host C: version_policy <= system/sepolicy/tools/version_policy.c
 FAILED: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/version_policy.o 
 /bin/bash -c "PWD=/proc/self/cwd  prebuilts/clang/host/linux-x86/clang-4691093/bin/clang   	-I system/sepolicy/tools -I /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates -I /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/gen/EXECUTABLES/version_policy_intermediates -I libnativehelper/include_jni \$(cat /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/import_includes)  -I system/core/include -I system/media/audio/include -I hardware/libhardware/include -I hardware/libhardware_legacy/include -I libnativehelper/include -I frameworks/native/include -I frameworks/native/opengl/include -I frameworks/av/include  -c  -Wa,--noexecstack -fPIC -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector -D__STDC_FORMAT_MACROS -D__STDC_CONSTANT_MACROS --gcc-toolchain=prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8 --sysroot prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/sysroot -fstack-protector-strong -m64 -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -no-canonical-prefixes -DNDEBUG -UDEBUG -fno-exceptions -Wno-multichar -O2 -g -fno-strict-aliasing -fdebug-prefix-map=/proc/self/cwd= -D__compiler_offsetof=__builtin_offsetof -Werror=int-conversion -Wno-reserved-id-macro -Wno-format-pedantic -Wno-unused-command-line-argument -fcolor-diagnostics -Wno-expansion-to-defined -Wno-zero-as-null-pointer-constant -fdebug-prefix-map=\$PWD/=   -target x86_64-linux-gnu -Bprebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/x86_64-linux/bin   -std=gnu99  -Wall -Werror -fPIE -DANDROID_STRICT   -Werror=int-to-pointer-cast -Werror=pointer-to-int-cast -Werror=address-of-temporary -Werror=return-type -Wno-tautological-constant-compare -Wno-null-pointer-arithmetic -Wno-enum-compare -Wno-enum-compare-switch -MD -MF /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/version_policy.d -o /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/version_policy.o system/sepolicy/tools/version_policy.c"
 prebuilts/clang/host/linux-x86/clang-4691093/bin/clang.real: error while loading shared libraries: libtinfo.so.5: cannot open shared object file: No such file or directory
-[  0% 25/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libm_intermediates/export_includes
-[  0% 26/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/libdl_intermediates/export_includes
-[  0% 27/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/STATIC_LIBRARIES/libclang_rt.ubsan_minimal-arm-android_intermediates/export_includes
+[  0% 27/15554] Export includes file:  -- /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+[  0% 28/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/target/product/CPH2083/obj_arm/SHARED_LIBRARIES/ld-android_intermediates/link_type
+[  0% 29/15554] Check module type: /home/runner/work/device_oppo_CPH2083/device_oppo_CPH2083/workspace/out/host/linux-x86/obj/EXECUTABLES/version_policy_intermediates/link_type
 ninja: build stopped: subcommand failed.
-06:47:50 ninja failed with: exit status 1
+07:01:19 ninja failed with: exit status 1
