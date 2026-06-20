@@ -61,7 +61,7 @@ jobs:
         make -j$(nproc --all) $BUILD_TARGET
 
     - name: Upload Recovery Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: twrp-CPH2083
         path: workspace/out/target/product/CPH2083/recovery.img
