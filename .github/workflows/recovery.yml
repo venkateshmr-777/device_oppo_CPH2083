@@ -14,6 +14,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -60,7 +62,21 @@ jobs:
         export ALLOW_MISSING_DEPENDENCIES=true
         source build/envsetup.sh
         lunch $COMMON_LUNCH_CHOICE
-        make -j$(nproc --all) $BUILD_TARGET
+        make -j$(nproc --all) $BUILD_TARGET 2>&1 | tee build.log
+
+    - name: Commit Build Log
+      if: always()
+      run: |
+        if [ -f workspace/build.log ]; then
+          tail -n 1000 workspace/build.log > build_log.txt
+        else
+          echo "No build.log found" > build_log.txt
+        fi
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add build_log.txt
+        git commit -m "build status update [skip ci]" || true
+        git push origin HEAD:${{ github.ref_name }} || true
 
     - name: Upload Recovery Artifact
       uses: actions/upload-artifact@v4
